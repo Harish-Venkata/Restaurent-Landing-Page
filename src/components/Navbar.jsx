@@ -46,7 +46,11 @@ const Navbar = () => {
   return (
     <nav className="flex items-center space-y-4 ">
       <div>
-        <img src={Logo} alt="" className="md:max-w-lg h-auto mr-80 mt-0" />
+        <img
+          src={Logo}
+          alt=""
+          className="md:max-w-lg h-auto -ml-55 mr-90 mt-0 sm:-ml-10 sm:mt-3"
+        />
       </div>
       <div className=" flex mt-5 hidden md:flex">
         <a
@@ -80,7 +84,7 @@ const Navbar = () => {
           {" "}
           <BsCart2 />{" "}
         </a>
-        <button className="bg-white outline-0 border-none rounded-3xl p-4 pt-2 pr-4 cursor-pointer duration-75 mt-0 text-black font-bold md:w-48 md:-mr-10">
+        <button className="bg-white outline-0 border-none rounded-3xl p-4 pt-2 pr-4 cursor-pointer duration-75 -mt-2 text-black font-bold md:w-48 md:-mr-10">
           Bookings Now
         </button>
       </div>
