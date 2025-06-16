@@ -12,7 +12,7 @@ const Footer = () => {
         <div className="max-w-110 sm:mr-4">
           <img src={Logo} alt="" />
         </div>
-        <div className="mt-10 flex items-center sm:mt-5">
+        <div className="mt-19 flex items-center">
           <BsTwitter className="text-gray-400 text-2xl mr-5" />
           <SiLinkedin className="text-gray-400 text-2xl mr-5" />
           <BsYoutube className="text-gray-400 text-2xl mr-5" />
